@@ -9,5 +9,9 @@ button {
     
 }
 li {
-    margin: 10px;
+    border: 1px green solid;
+    text-align: center;
+    padding: 20px;
+    /* margin: 5px; */
 }
+

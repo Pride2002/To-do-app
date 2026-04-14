@@ -13,21 +13,21 @@ body {
 
 }
 
-i {
+/* i {
     cursor: pointer;
-}
+} */
 
-#posts div {
+#list {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.options {
+/* .options {
     display: flex;
     gap: 20px;
 }
 
 #msg {
     color: red;
-}
+} */
