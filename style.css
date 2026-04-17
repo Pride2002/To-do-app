@@ -1,7 +1,16 @@
 body {
     font-family: Arial;
-    padding: 20px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 50px;
     margin: 0px;
+}
+
+.todo{
+    border: 1px solid;
+    margin: 100px 300px;
+    border-radius: 30px;
+    background-color: burlywood;
 }
 
 button {
@@ -9,9 +18,13 @@ button {
     
 }
 li {
-    border: 1px green solid;
-    text-align: center;
-    padding: 20px;
+    border: 1px grey solid;
+   text-align: center;
+    margin-left: 65px;
+    margin-right: 100px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: whitesmoke;
     /* margin: 5px; */
-}
+}   
 

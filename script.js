@@ -13,8 +13,15 @@ addBtn.addEventListener("click", function () {
 
     if(newTask === "") {
         alert("Please enter a task");
+        localStorage.setItem("input", JSON.stringify(newTask));
+        const parseNewTask = JSON.parse(localStorage.getItem("newTask"));
+
         return;
     }
+
+    // function display() {
+    //     localStorage.setItem()
+    // }
 
     const li = document.createElement("li");
     li.textContent = newTask;
@@ -45,10 +52,17 @@ addBtn.addEventListener("click", function () {
         li.remove();
     })
 
+    console.log(newTask);
+
+
+
+
     input.value = "";
 
 })
 
 // Read - display tasks (already done by default)
 
-// Edit - update a task
+// Edit - update a 
+
+//localstorage
